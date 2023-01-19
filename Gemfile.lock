@@ -78,9 +78,19 @@ GEM
     debug (1.7.1)
       irb (>= 1.5.0)
       reline (>= 0.3.1)
+    dotenv (2.8.1)
+    dotenv-rails (2.8.1)
+      dotenv (= 2.8.1)
+      railties (>= 3.2)
     erubi (1.12.0)
     globalid (1.0.0)
       activesupport (>= 5.0)
+    httparty (0.21.0)
+      mini_mime (>= 1.0.0)
+      multi_xml (>= 0.5.2)
+    hubspot-ruby (0.9.0)
+      activesupport (>= 3.0.0)
+      httparty (>= 0.10.0)
     i18n (1.12.0)
       concurrent-ruby (~> 1.0)
     io-console (0.6.0)
@@ -104,6 +114,7 @@ GEM
     mini_mime (1.1.2)
     minitest (5.17.0)
     msgpack (1.6.0)
+    multi_xml (0.6.0)
     net-imap (0.3.4)
       date
       net-protocol
@@ -180,6 +191,8 @@ DEPENDENCIES
   bootsnap
   cssbundling-rails
   debug
+  dotenv-rails
+  hubspot-ruby
   jbuilder
   jsbundling-rails
   puma (~> 5.0)
